@@ -52,19 +52,10 @@ Each event is tagged with:
 
 ## 🛠 Requirements
 Python 3.8+  
-Install the dependencies with:
+Dependencies are listed in the `requirements.txt` file.  
+Install and run with:
 ```bash
-pip install -r requirements.txt
-
----
-
-## 📥 Installation & Running
 git clone https://github.com/jarvishdinocent/jp-pl-cert-feeds-to-misp.git
 cd jp-pl-cert-feeds-to-misp
 pip install -r requirements.txt
 python3 cert-feeds-to-misp.py
-
-
-
-
-
