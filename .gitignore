@@ -1,0 +1,43 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# MISP / secrets / local config
+*.pem
+*.crt
+*.key
+*.p12
+*.pfx
+*.der
+*.jks
+*.env
+.env.*
+.misp_session
+*.session
+*.log
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Caches
+.cache/
+.pytest_cache/
+pip-wheel-metadata/
