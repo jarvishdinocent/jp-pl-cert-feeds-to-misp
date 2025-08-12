@@ -50,12 +50,21 @@ Each event is tagged with:
 
 ---
 
-## ⚙️ Configuration
-Open the script and set:
-```python
-MISP_URL = "https://<your-misp-instance>"
-MISP_KEY = "<your-misp-api-key>"
-MISP_VERIFY_CERT = False  # True if using valid SSL certificate
-STRICT_VT_GATE = False    # True to keep only VirusTotal-malicious IOCs
-VT_API_KEY = ""           # Optional VirusTotal API key
+## 🛠 Requirements
+Python 3.8+  
+Install the dependencies with:
+```bash
+pip install -r requirements.txt
+
+---
+
+## 📥 Installation & Running
+git clone https://github.com/jarvishdinocent/jp-pl-cert-feeds-to-misp.git
+cd jp-pl-cert-feeds-to-misp
+pip install -r requirements.txt
+python3 cert-feeds-to-misp.py
+
+
+
+
 
